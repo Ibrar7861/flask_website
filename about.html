@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: black;
+            line-height: 1.6;
+        }
+        
+        h1{
+            color: black;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .container{
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        h1 h2 h3 h4{
+            color: black; 
+        }
+
+        ul{
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer{
+            background: #1dbd5a;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            margin-top: 85px;   
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+              <img src="{{ url_for('static', filename='image/logo.png') }}" alt="logo">
+            </div>
+            <ul class="nav-links">
+              <li><a href="{{ url_for('home') }}">Home</a></li>
+              <li><a href="{{ url_for('about') }}">About Us</a></li>
+              <li><a href="{{ url_for('membership') }}">Membership Plan</a></li>
+            </ul>
+          </nav>
+    </header> 
+    <main>
+        <h1>About Us</h1>
+    </main>
+    <div class="container">
+        <h2>Our Mission:</h2>
+        <p>To inspire and empower individuals to achieve their fitness goals through expert guidance,
+             state-of-the-art equipment, and a supportive community.</p>
+        
+        <h3>Who We Are:</h3>
+        <p>A team of fitness enthusiasts, certified trainers, 
+            and wellness experts dedicated to creating a space where fitness meets lifestyle.</p>
+        
+        <h4>What We Offer:</h4>
+        <ul>
+           <li>Personalized training programs designed for all fitness levels.</li> 
+            <li>Modern gym facilities with cutting-edge equipment.</li>
+            <li>Group fitness classes, including yoga, HIIT, and strength training.</li>
+        </ul>
+    
+        <h4>Why Choose Us:</h4>
+        <ul>
+            <li>Professional and certified trainers.</li>
+            <li>Affordable membership plans tailored to individual needs.</li>
+            <li>A welcoming environment for beginners and professionals alike.</li>
+        </ul>
+    </div>
+    <footer>
+        <p>&copy; 2024 Our Membership Program. All rights reserved.</p>
+    </footer>
+</body>
+</html>

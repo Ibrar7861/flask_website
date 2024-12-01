@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        
+        h1, h2,h3 {
+            color: black;
+        }
+        
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background: #07f562;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+          <img src="{{ url_for('static', filename='image/logo.png') }}" alt="logo">
+        </div>
+        <ul class="nav-links">
+          <li><a href="{{ url_for('home') }}">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About Us</a></li>
+          <li><a href="{{ url_for('membership') }}">Membership Plan</a></li>
+        </ul>
+      </nav>
+</header>
+<main>
+    <h1>Welcome to Our Membership Program</h1>
+</main>
+<div class="container">
+    <h2>About Our Membership</h2>
+    <p>Join our membership program to enjoy exclusive benefits, 
+        special discounts, and premium services tailored just for you.
+         Being a member means becoming a part of a community that values excellence and innovation.</p>
+    
+    <h3>Membership Benefits</h3>
+    <ul>
+        <li>Access to exclusive events and workshops</li>
+        <li>Priority customer support</li>
+        <li>Special discounts on products and services</li>
+        <li>Monthly newsletters with insights and updates</li>
+        <li>Networking opportunities with other members</li>
+    </ul>
+
+    <h3>Membership Types</h3>
+    <ul>
+        <li><strong>Basic Membership: 20$ :</strong> Free access to 
+            newsletters and select events.</li>
+        <li><strong>Premium Membership: 50$ :</strong> Includes all
+             basic benefits plus discounts and priority support.</li>
+        <li><strong>VIP Membership: 100$ :</strong> All premium benefits,
+             exclusive VIP events, and one-on-one consulting services.</li>
+    </ul>
+</div>
+
+<footer>
+    <p>&copy; 2024 Our Membership Program. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
