@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CoreX</title>
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body style="background: url('{{ url_for("static", filename="image/bg.jpg") }}') no-repeat center center fixed; background-size: cover;"> 
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="{{ url_for ('static', filename='image/logo.png')}}" alt="logo">
+      </div>
+      <div class="nav-container">
+        <ul class="nav-links">
+          <li><a href="{{ url_for('home') }}">Home</a></li>
+          <li><a href="{{ url_for('about') }}">About Us</a></li>
+          <li><a href="{{ url_for('membership') }}">Membership Plan</a></li>
+        </ul>
+        <a href="#" class="btn join-now">Join Now</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>MAKE <br><span class="highlight">YOUR</span> BODY SHAPE.</h1>
+        <p>
+            Achieve your fitness goals with expert guidance, cutting-edge equipment,
+            <br> and a community that motivates you every step of the way.
+        </p>
+        <a href="#" class="btn get-started">Get Started</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>  
