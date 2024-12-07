@@ -27,7 +27,8 @@ Open your browser and visit:<br>
 *http://127.0.0.1:5000
 
 <h8>**File Structure**</h8>
-Corex-website_flask/
+
+Corex-website_flask/<br>
 │
 ├── static/<br>
 │ ├── css/<br>
