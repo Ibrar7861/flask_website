@@ -1,4 +1,4 @@
-<h1>**flask_website**</h1>
+<h1>flask_website</h1>
 I develop this website using python flask frame work. To see the website visit http://127.0.0.1:5000
 
 <h2>**Project Overview**</h2>
