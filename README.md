@@ -29,7 +29,7 @@ Open your browser and visit:<br>
 
 <h8>***File Structure***</h8>
 
-Corex-website_flask/<br>
+website_flask/<br>
 │
 ├── static/<br>
 │ ├── css/<br>
