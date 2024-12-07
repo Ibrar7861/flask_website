@@ -5,39 +5,39 @@ I develop this website using python flask frame work. To see the website visit h
 <p>CoreX Gym Professional is a sleek and responsive website designed for fitness enthusiasts, personal trainers, and gym owners. It offers a modern and professional online presence, promoting gym facilities, classes, trainers, and membership options.<p>
 
 <h3>**Features**</h3>
-<li>Home Page: Highlights the fitness center’s mission, services, and special offerings.</li>
-<li>About Us Page: Details about Tribe Fitness, its team, facilities, and vision.</li>
-<li>Membership Page: Displays flexible membership options with detailed pricing and benefits.</li>
+<li><bold>Home Page:</bold> Highlights the fitness center’s mission, services, and special offerings.</li>
+<li><bold>About Us Page:</bold> Details about Tribe Fitness, its team, facilities, and vision.</li>
+<li><bold>Membership Page:</bold> Displays flexible membership options with detailed pricing and benefits.</li>
 
 <h4>**Technologies Used**</h4>
-Frontend: HTML, CSS
+Frontend: HTML, CSS<br>
 Integrated: Flask (Python)
 
 <h5>**Installation **</h5>
 **Prerequisites**
-Python 3.8 or later installed
+Python 3.8 or later installed<br>
 Flask installed (pip install flask)
 
-*cd Corex-website_flask
-Install dependencies:
-pip install Flask==2.2.3
-Run the Flask application:
-*python app.py
-Open your browser and visit:
+<h6>*cd Corex-website_flask</h6>
+Install dependencies:<br>
+pip install Flask==2.2.3<br>
+Run the Flask application:<br>
+<h7>*python app.py</h7>
+Open your browser and visit:<br>
 *http://127.0.0.1:5000
 
-**File Structure**
+<h8>**File Structure**</h8>
 Corex-website_flask/
 │
-├── static/
-│ ├── css/
-│ ├── images/
-│
-├── templates/
-│ ├── index.html
-│ ├── about.html
-│ ├── membership.html
-│
-├── app.py
+├── static/<br>
+│ ├── css/<br>
+│ ├── images/<br>
+│<br>
+├── templates/<br>
+│ ├── index.html<br>
+│ ├── about.html<br>
+│ ├── membership.html<br>
+│<br>
+├── app.py<br>
 
 
