@@ -14,14 +14,14 @@ Frontend: HTML, CSS<br>
 Integrated: Flask (Python)
 
 <h5>**Installation **</h5>
-**Prerequisites**
 Python 3.8 or later installed<br>
 Flask installed (pip install flask)
 
-<h6>*cd Corex-website_flask</h6>
+<h6>**cd Corex-website_flask**</h6>
 Install dependencies:<br>
 pip install Flask==2.2.3<br>
 Run the Flask application:<br>
+
 <h7>*python app.py</h7>
 Open your browser and visit:<br>
 *http://127.0.0.1:5000
